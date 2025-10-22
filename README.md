@@ -2,7 +2,6 @@
 
 Misuse-Based Intrusion Detection System for Z-Wave networks. The detector consumes over‑the‑air traffic captured with Scapy + GNU Radio, builds an allow-list from a live Z-Way controller, and records packets that violate protocol, topology, or checksum rules. An enhanced pipeline can also correlate captures with the controller’s own log file to spot impersonation attacks.
 
-Before diving in, the background paper—[*Misuse-based detection of Z-Wave network attacks*](https://fullerj.github.io/papers/cose17.pdf)—explains the detection logic that these scripts implement.
 
 ## Prerequisites
 
